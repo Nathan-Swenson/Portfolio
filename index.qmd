@@ -3,7 +3,7 @@ title: "Portfolio"
 listing:
   contents: posts
   sort: "date desc"
-  type: default
+  type: website
   output-dir: docs
   categories: true
   sort-ui: false
