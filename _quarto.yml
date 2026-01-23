@@ -10,9 +10,10 @@ website:
         href: https://github.com/
       - icon: twitter
         href: https://twitter.com
-      - Resume
-      - Cover Letter
-      - href: file:///media/fuse/crostini_422092f74f3af7485c5dfb143ac1b8fb3dfed416_termina_penguin/Stat%20349/Portfolio/docs/Cover%20Letter/index.pdf
+      - text: Resume
+      - href: https://nathan-swenson.github.io/Portfolio/posts/Resume/Resume/Resume.pdf
+      - text: Cover Letter
+        href: https://nathan-swenson.github.io/Portfolio/posts/Cover%20Letter/index.pdf
 format:
   html:
     theme:
