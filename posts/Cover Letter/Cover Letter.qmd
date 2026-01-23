@@ -1,0 +1,28 @@
+---
+author:
+title: Cover Letter
+  - name: Nathan Swenson
+    affiliation:
+      - name: Dummy org
+        department: Cool Dep
+        address: swensonnm1906@gmail.com
+address:
+  - Recruitment Team
+  - 121 S 13th St.
+  - Lincoln ne
+  - 68508
+subject: Business Intelligence Analyst
+subject-title: "Subject"
+opening: "To Whom It May Concern,"
+closing: "Regards,"
+
+format:
+  letter-pdf:
+    output-file: index
+---
+
+This letter is meant to express my interest in joining your company as your new Business Intelligence Analyst. I would be a good fit for you company because I am a confident leader and a very effective collaborator. As an assistant manager at Little Caesars I have developed effective ways on resolving conflicts and delegating, while under pressure from high volume hours.
+
+> I attend the University of Nebraska-Lincoln with a projected graduation date of 2028 May. Over my years I have learned to be resourceful in the face of adversity. During my undergrad I was faced with the removal of the Statistics Department and in response me and other classmates had founded the UNL Statistics Club, to create a community where we can prosper and grow as Data Analysts.
+
+Vestibulum id sodales lectus, sed scelerisque quam. Nullam auctor mi et feugiat commodo. Duis interdum imperdiet nulla, vitae bibendum eros placerat non. Cras ornare, risus in faucibus malesuada, libero sem fringilla quam, ut luctus enim sapien eget dolor.
