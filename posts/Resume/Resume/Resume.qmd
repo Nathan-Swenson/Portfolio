@@ -10,13 +10,13 @@ cvcolor: 58748F #without `#`
 cvfont: raleway #texlive fonts like raleway,fetamont,gillius,comfortaa
 cvmeta:
   - title: Status
-    left: Team Lead for Transparent Social Analytics, GESIS
+    left: Assistant Manager for Little Caesars
     right: Lincoln, Nebraska
   - title: Field
-    left: Data Science
+    left: Statistics
     right: swensonnm1906@gmail.com
   - title: Techs
-    left: R, bash, SAS, Python, Version Control
+    left: R, bash, SAS, Python, Version Control, Tableu
 execute:
   echo: false
 ---
@@ -41,7 +41,7 @@ cvevents <- function(tbl, when, what, where, details) {
 
 # Summary
 
-Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
+A community-driven and detail-oriented individual with data entry experience and an interest in statistical based projects, seeking a career as a Business Intelligence Analyst through Nelnet. Passionate about leveraging data to find optimal solutions. I aim to use my technical skills to enhance workflow and improve data analysis.
 
 # Experience
 
@@ -50,10 +50,11 @@ Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod 
 #| output: asis
 tibble::tribble(
     ~role, ~institution, ~dates, ~details, ~tasks,
-    "Team Lead", "Little Caesars", "May 2022 - Present",
-    "Transparent Social Analytics, Department of Computational Social Science", c("Coordination of a project to build an Open Science platform with reusable code and tutorials", "Research on Open Science Practices", "Implementation of tools to enhance reproducibility and facilitate research with digital data in R"),
-    "Presidential Fellow", "University of Manchester", "Sep. 2018 - Feb. 2022",
-    "Sociology Department", c("Research on Disinformation on Social Media", "Analyses of large scale and unstructured data sets with R, Python and Bash"), |>
+    "Assistant Manager at Little Caesars", "Lincoln, Nebraska", "May 2022 - Present",
+    "Little Caesar's, Department of Computational Social Science", c("Creating a positive environment for both colleages and customers", "Creating Schedules for my team members", "Optimizing products and time to maximize profits", "Counting Inventory and reporting back to the owner"),
+    "Cofounder of the UNL STAT Club", "University of Nebraska", "Jan 2026 - Present",
+    "Student Club", c("Founding of the Statistics club creating an environment of collaboration and community", "Collaborating with professors to maximize effectivity for resources and connections") 
+    )|>
     cvevents(when = "dates", what = "role", where = "institution", details = "tasks")
 ```
 
@@ -64,8 +65,17 @@ tibble::tribble(
 #| output: asis
 tibble::tribble(
     ~degree, ~uni, ~loc, ~dates, ~details,
-    "Bachellor's Degree in Statistics", "University of Nebraska-Lincoln", "Lincoln, Nebraska", "Aug. 2024 - May. 2028", c("GPA: 3.810", "Developed and implemented new methods to assess network centrality"),
-    "Diploma in Business Mathematics", "KIT", "Karlsruhe, Germany", "Sep. 2006 - Jul. 2012", c("Thesis: Modularity Maximization", "Implementation and comparison of different clustering algorithms using Matlab")
+    "Bachellor's Degree in Statistics", 
+    "University of Nebraska-Lincoln", 
+    "Lincoln, Nebraska", 
+    "Aug. 2024 - May 2028",
+    c(
+      "GPA: 3.810", 
+      "Related Coursework: Linear Algebra, Calculus III, Principles of Study Design, Probability for Statisticians, Technical Skill for Statisticians, Statistical Computing I"),
+    "High School Diploma", "Malcolm Public Schools", "Malcolm Nebraska", "Aug. 2020 - May 2024", 
+  c(
+    "GPA: 3.76",
+    "Dual Credit Courses through Southeast Community College: Public Speaking, Psychology")
 ) |>
     cvevents(when = "dates", what = "degree", where = "loc", details = "details")
 ```
@@ -76,9 +86,16 @@ tibble::tribble(
 #| label: projects
 #| output: asis
 tibble::tribble(
-    ~name, ~uni, ~loc, ~dates, ~details,
-    "Bachellor's Degree in Statistics", "University of Nebraska-Lincoln", "Lincoln, Nebraska", "Aug. 2024 - May. 2028", c("GPA: 3.810", "Developed and implemented new methods to assess network centrality"),
-    "Diploma in Business Mathematics", "KIT", "Karlsruhe, Germany", "Sep. 2006 - Jul. 2012", c("Thesis: Modularity Maximization", "Implementation and comparison of different clustering algorithms using Matlab")
+    ~name, ~purpose, ~loc, ~dates, ~details,
+    "Hypergeometric Calculator Graph", "Personal", "Malcolm, Nebraska", "Jun. 2025", c(
+      "Assesses the chance of drawing between 5 and 6 cards in a 40 to 60 card deck and reveals the optimal number of desired cards", 
+      "Created graphics for 1 to 3 factors in Tableu"),
+    "Pokemon Team Builder and Edited Chart", "Personal", "Malcolm, Nebraska", "October 2025", c(
+      "Edited pokemon stats and the type chart, 
+      Created an R function to test inconsistencies with pokemon's typing, 
+      Used VS code to update files for a minecraft mod", 
+      "Made a graphic documenting the changes through Tableu", 
+      "Made a graphic for a team builder to check overall weaknesses in Tableu")
 ) |>
     cvevents(when = "dates", what = "name", where = "loc", details = "details")
 ```
