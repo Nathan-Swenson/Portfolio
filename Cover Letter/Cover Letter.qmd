@@ -1,0 +1,30 @@
+---
+author:
+  - name: Nathan Swenson
+    affiliation:
+      - name: University of Nebraska-Lincoln
+        department: Statistics / Data Analytics
+        address: swensonnm1906@gmail.com
+        
+address:
+  - Nelnet Recruitment Team
+  - 121 S 13th St.
+  - Lincoln ne
+  - 68508
+subject: Business Intelligence Analyst
+subject-title: "Subject"
+opening: "To Whom It May Concern,"
+closing: "Regards,"
+
+format:
+  letter-pdf:
+    output-file: index
+---
+
+My extensive experience in data modeling and analysis makes me a considerable candidate for your Business Intelligence Analyst position. I would be a good fit for your company because I am a confident leader and an effective collaborator. As an assistant manager at Little Caesars I have developed efficient ways of resolving conflicts and delegating, while under pressure from high volume hours. This experience allows me to be proactive in deadlines and efficient in team settings.
+
+I currently attend the University of Nebraska-Lincoln with a projected graduation date of May 2028. Over my years in undergraduate studies, I have learned to be resourceful in the face of adversity. During my undergradate degree I was faced with the removal of the Statistics Department and in response me and other classmates had founded the UNL Statistics Club, to create a community where we can prosper and grow as Data Analysts. From this hardship I have enhanced my skills in cross-functional collaboration, creativity, and evaluating the most efficient process.
+
+In my free time I have experimented with projects that are listed in my resume. From creating the hypergeometric calculator graph for 1 to 3 card factors I have been able to pick up effective ways for data generation in R and ways of implementing cohesive graphics. From my experience with the Pokemon edited chart I have learned how to make R functions, and further retained knowledge from the coding language.
+
+Thank you for considering my application. I look forward to discussing my potential contributions to the company.
