@@ -11,9 +11,9 @@ website:
       - icon: twitter
         href: https://twitter.com
       - text: Resume
-        href: https://nathan-swenson.github.io/Portfolio/posts/Resume/Resume/Resume.pdf
+        href: /docs/Resume/Resume/Resume.pdf
       - text: Cover Letter
-        href: https://nathan-swenson.github.io/Portfolio/posts/Cover%20Letter/index.pdf
+        href: /docs/Cover_Letter/index.pdf
 format:
   html:
     theme:
