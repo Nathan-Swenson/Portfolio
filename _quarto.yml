@@ -13,7 +13,7 @@ website:
       - text: Resume
         href: /Resume/Resume/Resume.pdf
       - text: Cover Letter
-        href: /docs/Cover_Letter/index.pdf
+        href: /Cover_Letter/index.pdf
 format:
   html:
     theme:
