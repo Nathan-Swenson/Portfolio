@@ -41,7 +41,7 @@ cvevents <- function(tbl, when, what, where, details) {
 
 # Summary
 
-A community-driven and detail-oriented individual with data entry experience and an interest in statistical based projects, seeking a career as a Business Intelligence Analyst through Nelnet. Passionate about leveraging data to find optimal solutions. I aim to use my technical skills to enhance workflow and improve data analysis.
+A community-driven and detail-oriented individual with data entry experience and an interest in statistical based projects. Passionate about leveraging data to find optimal solutions. I aim to use my technical skills to enhance workflow and improve data analysis.
 
 # Experience
 
